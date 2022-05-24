@@ -1,0 +1,5 @@
+@import "header.css";
+
+.wrapper-header__hero {
+  height: 50vh;
+}

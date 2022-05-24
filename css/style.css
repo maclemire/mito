@@ -1,77 +1,4 @@
-@import "reset.css";
-
-/* Couleurs background */
-.bg-primary {
-  background-color: #b4cfb0;
-}
-.bg-section{
-  background-color: #f2f8f2;
-}
-
-/* Polices */
-.font-nunito {
-  font-family: "Nunito", sans-serif;
-}
-
-/* Tools */
-.container {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.py-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-/* header
-======================================================================= */
-header {
-  padding: 15px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* space nav links */
-.wrapper-header__nav a {
-  padding: 0 6px;
-  color: #fff;
-}
-
-/* Style logo */
-.wrapper-header__logo {
-  border: 3px solid white;
-  border-radius: 0px 16px 0px 16px;
-  padding: 3px;
-  box-shadow: 6px 6px 2px pink;
-  font-weight: 800;
-}
-
-/* Couleur lettres logo */
-.wrapper-header__logo-mi {
-  color: red;
-}
-.wrapper-header__logo-to {
-  color: white;
-}
-.wrapper-header__logo-dot {
-  color: red;
-  font-weight: 900;
-}
-
-/* Style footer */
-footer {
-  color: white;
-  padding: 30px;
-}
-
-/* Background image */
-.wrapper-header__hero {
-  background-image: url(https://images.unsplash.com/photo-1576398289164-c48dc021b4e1?width=881&height=661);
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-}
+@import "header.css";
 
 /* Wrapper main */
 .wrapper-main {
@@ -138,7 +65,7 @@ footer {
   margin: 100px;
 }
 
-.wrapper-main__teams-profil{
+.wrapper-main__teams-profil {
   display: flex;
   align-items: center;
   width: 1000px;
@@ -155,14 +82,14 @@ footer {
   font-weight: 800;
   padding: 10px;
 }
-.wrapper-main__teams-profil__text{
+.wrapper-main__teams-profil__text {
   display: flex;
   flex-direction: column;
   padding: 60px;
   font-size: x-large;
 }
 
-.wrapper-main__teams-profil-bezos{
+.wrapper-main__teams-profil-bezos {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -186,4 +113,3 @@ footer {
   font-size: x-large;
   font-weight: 600;
 }
-
